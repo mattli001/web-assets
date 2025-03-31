@@ -1,7 +1,7 @@
 {
     "apps": [
       {
-        "icon": "https://apps.1panel.hk/stable/1panel/ollama/logo.png",
+        "icon": "https://raw.githubusercontent.com/mattli001/web-assets/refs/heads/dev/assets/dev/1panel/ollama/logo.png",
         "name": "Ollama",
         "readMe": "# Ollama\n\n**Ollama** is an open-source large language model service that provides an API interface and chat interface similar to OpenAI. It allows seamless deployment of the latest GPT models and usage through APIs. It supports hot-loading model files, enabling model switching without restarting.\n\n## Quick Start\n\n> Access the `Containers` list, find the Ollama container, and open the terminal to chat with [DeepSeek R1](https://ollama.com/library/deepseek-r1):\n\n```\nollama run deepseek-r1:1.5b\n```\n\n## Model Library\n\nOllama supports a variety of models available at [ollama.com/library](https://ollama.com/library).\n\n> **Note**: You should have at least 8 GB of available RAM to run 7B models, 16 GB for 13B models, and 32 GB for 33B models.",
         "additionalProperties": {
@@ -33,8 +33,8 @@
         },
         "versions": [
           {
-            "name": "0.6.2",
-            "downloadUrl": "https:/apps.1panel.hk/stable/1panel/ollama/0.6.2/ollama-0.6.2.tar.gz",
+            "name": "0.6.3",
+            "downloadUrl": "https://raw.githubusercontent.com/mattli001/web-assets/refs/heads/dev/assets/dev/1panel/ollama/0.6.3/ollama-0.6.3.tar.gz",
             "additionalProperties": {
               "formFields": [
                 {
@@ -63,7 +63,7 @@
         ]
       },
       {
-        "icon": "https://apps.1panel.hk/stable/1panel/ollama-webui/logo.png",
+        "icon": "https://raw.githubusercontent.com/mattli001/web-assets/refs/heads/dev/assets/dev/1panel/ollama-webui/logo.png",
         "name": "OpenWebUI",
         "readMe": "# Open WebUI\n\n**Open WebUI** is a user-friendly WebUI for LLM users, supporting LLM runtime programs such as Ollama and OpenAI compatible APIs.\n\n## Main Features:\n\n- **Intuitive Interface**: Our chat interface is inspired by ChatGPT, ensuring a user-friendly experience.\n- **Responsive Design**: Enjoy a seamless experience on both desktop and mobile devices.\n- **Fast Response**: Experience fast response performance.\n- **Easy Deployment**: Seamlessly install using Docker or Kubernetes (kubectl, kustomize, or helm) for a hassle-free experience.\n- **Code Syntax Highlighting**: Enhance code readability with our syntax highlighting feature.\n- **Markdown and LaTeX Support**: Enrich interactions with comprehensive Markdown and LaTeX features to enhance your LLM experience.\n- **RAG Integration**: Support for cutting-edge retrieval-augmented generation (RAG) that allows you to deeply explore the future of chat interactions. This feature seamlessly integrates document interactions into your chat experience. You can load documents directly into the chat or add files to the document library and easily access them using #prompt commands. During the alpha phase, we are actively refining and enhancing this feature to ensure optimal performance and reliability, though occasional issues may arise.\n- **Web Browsing Capabilities**: Seamlessly integrate websites into your chat experience using commands with `#URL`. This feature lets you directly merge web content into your conversation, enriching the depth and interaction.\n- **Prompt Presets Support**: Instantly access preset prompts in the chat input. Easily load predefined conversation starters and speed up your interactions. You can easily import prompts via Open WebUI Community integration.\n- **RLHF Annotation**: Enhance the capability of your messages by rating them \"upvote\" and \"downvote\" to facilitate the creation of reinforcement learning datasets based on human feedback (RLHF). Use your messages to train or fine-tune models while ensuring local data confidentiality.\n- **Conversation Management**: Easily categorize and locate specific chats for quick reference and simplified data collection.\n- **Download/Delete Models**: Easily download or delete models directly from the Web UI.\n- **GGUF File Model Creation**: Easily create Ollama models by uploading GGUF files directly from the Web UI. A simplified process allows you to upload from your computer or download GGUF files from Hugging Face.\n- **Multi-Model Support**: Seamlessly switch between different chat models for diverse interactions.\n- **Multi-Mode Support**: Interact seamlessly with models that support multi-modal interactions, including images (e.g., LLava).\n- **Model File Generator**: Easily create Ollama model files through the Web UI. Open WebUI Community integration allows you to create and add roles/agents, customize chat elements, and import model files with ease.\n- **Multiple Model Conversations**: Interact simultaneously with multiple models, leveraging their unique strengths to get the best responses. Parallelly utilizing a range of different models enhances your experience.\n- **Collaborative Chat**: Seamlessly orchestrate group conversations to harness the collective intelligence of multiple models. Use the @command to specify models and enable dynamic and diverse conversations in the chat interface. Immerse yourself in the collective wisdom within the chat environment.\n- **Regeneration History Access**: Easily revisit and explore your entire regeneration history.\n- **Chat History Management**: Easily access and manage your chat history.\n- **Import/Export Chat History**: Seamlessly import and export your chat data into and out of the platform.\n- **Voice Input Support**: Interact with your model through voice; enjoy the convenience of speaking directly with the model. Additionally, explore the option to automatically send voice input after 3 seconds of silence for a streamlined experience.\n- **Advanced Parameter Fine-Tuning Control**: Gain deeper control over your conversations by adjusting parameters like temperature and defining system prompts, allowing you to tailor your interaction based on your specific preferences and needs.\n- **Image Generation Integration**: Seamlessly integrate image generation features with AUTOMATIC1111 API (local) and DALL-E, enriching your chat experience with dynamic visual content.\n- **OpenAI API Integration**: Easily integrate OpenAI compatible APIs for multi-functional conversations with Ollama models. Customize the API base URL to link with LMStudio, Mistral, OpenRouter, etc.\n- **Multiple OpenAI Compatible API Support**: Seamlessly integrate and customize various OpenAI compatible APIs to enhance the multi-functionality of your chat interactions.\n- **External Ollama Server Connection**: Seamlessly connect to external Ollama servers hosted at different addresses by configuring environment variables.\n- **Multiple Ollama Instance Load Balancing**: Effortlessly distribute chat requests across multiple Ollama instances to enhance performance and reliability.\n- **Multi-User Management**: Easily monitor and manage users through our intuitive management panel, simplifying the user management process.\n- **Role-Based Access Control (RBAC)**: Ensure secure access with restricted permissions; only authorized individuals can access your Ollama, with exclusive model creation/pulling rights reserved for administrators.\n- **Backend Reverse Proxy Support**: Enhance security with direct communication between the Open WebUI backend and Ollama. This key feature eliminates the need to expose Ollama over LAN. Requests routed from the Web UI to `/ollama/api` will seamlessly redirect to Ollama from the backend, improving overall system security.\n- **Continuous Updates**: We are committed to improving Open WebUI with regular updates and new features.\n\n**Open WebUI** offers a broad feature set and high scalability, making it the ideal tool for LLM users.",
         "additionalProperties": {
@@ -95,7 +95,7 @@
         "versions": [
           {
             "name": "main",
-            "downloadUrl": "https:/apps.1panel.hk/stable/1panel/ollama-webui/main/ollama-webui-main.tar.gz",
+            "downloadUrl": "https://raw.githubusercontent.com/mattli001/web-assets/refs/heads/dev/assets/dev/1panel/ollama-webui/main/ollama-webui-main.tar.gz",
             "additionalProperties": {
               "formFields": [
                 {
@@ -158,106 +158,6 @@
                   "required": false,
                   "rule": "paramComplexity",
                   "type": "password"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
-        "icon": "https://apps.1panel.hk/stable/1panel/vllm/logo.png",
-        "name": "vLLM",
-        "readMe": "## 使用说明\n1. Register an account at https://huggingface.co/ and get model access to create a token.\n2. Ensure the machine has an Nvidia GPU.\n3. Modify the /etc/docker/daemon.json file and add:\n```\n   \"runtimes\": {\n      \"nvidia\": {\n      \"path\": \"nvidia-container-runtime\",\n      \"runtimeArgs\": []\n      }\n   }\n```\n4. Install the nvidia-container-runtime and nvidia-docker2 components.\n\n\n## About\nvLLM is a fast and easy-to-use library for LLM inference and serving.\n\nvLLM is fast with:\n\n- State-of-the-art serving throughput\n- Efficient management of attention key and value memory with **PagedAttention**\n- Continuous batching of incoming requests\n- Fast model execution with CUDA/HIP graph\n- Quantizations: [GPTQ](https://arxiv.org/abs/2210.17323), [AWQ](https://arxiv.org/abs/2306.00978), INT4, INT8, and FP8.\n- Optimized CUDA kernels, including integration with FlashAttention and FlashInfer.\n- Speculative decoding\n- Chunked prefill\n\n**Performance benchmark**: We include a [performance benchmark](https://buildkite.com/vllm/performance-benchmark/builds/4068) that compares the performance of vLLM against other LLM serving engines ([TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [text-generation-inference](https://github.com/huggingface/text-generation-inference) and [lmdeploy](https://github.com/InternLM/lmdeploy)).\n\nvLLM is flexible and easy to use with:\n\n- Seamless integration with popular Hugging Face models\n- High-throughput serving with various decoding algorithms, including *parallel sampling*, *beam search*, and more\n- Tensor parallelism and pipeline parallelism support for distributed inference\n- Streaming outputs\n- OpenAI-compatible API server\n- Support NVIDIA GPUs, AMD CPUs and GPUs, Intel CPUs and GPUs, PowerPC CPUs, TPU, and AWS Neuron.\n- Prefix caching support\n- Multi-lora support\n\nvLLM seamlessly supports most popular open-source models on HuggingFace, including:\n- Transformer-like LLMs (e.g., Llama)\n- Mixture-of-Expert LLMs (e.g., Mixtral)\n- Embedding Models (e.g. E5-Mistral)\n- Multi-modal LLMs (e.g., LLaVA)\n\nFind the full list of supported models [here](https://docs.vllm.ai/en/latest/models/supported_models.html).",
-        "additionalProperties": {
-          "crossVersionUpdate": true,
-          "description": {
-            "en": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-            "ja": "大規模言語モデル向けの高スループットでメモリ効率の良い推論およびサービスエンジン",
-            "ko": "대형 언어 모델을 위한 고 처리량 및 메모리 효율적 추론 및 서비스 엔진",
-            "ms": "Enjin inferens dan perkhidmatan yang cekap memori dan berkapasiti tinggi untuk LLM",
-            "pt-br": "Motor de inferência e serviço eficiente em memória e de alto rendimento para LLMs",
-            "ru": "Высокопроизводительный и эффективный по памяти движок вывода и обслуживания для LLM",
-            "zh": "用于大语言模型的高吞吐量和内存高效的推理和服务引擎",
-            "zh-Hant": "用於大語言模型的高吞吐量和內存高效的推理和服務引擎"
-          },
-          "document": "https://docs.vllm.ai/en/latest/",
-          "github": "https://github.com/vllm-project/vllm",
-          "gpuSupport": true,
-          "key": "vllm",
-          "limit": 0,
-          "name": "vLLM",
-          "recommend": 71,
-          "shortDescEn": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-          "shortDescZh": "用于大语言模型的高吞吐量和内存高效的推理和服务引擎",
-          "tags": [
-            "AI"
-          ],
-          "type": "tool",
-          "website": "https://github.com/vllm-project/vllm"
-        },
-        "versions": [
-          {
-            "name": "0.8.1",
-            "downloadUrl": "https:/apps.1panel.hk/stable/1panel/vllm/0.8.1/vllm-0.8.1.tar.gz",
-            "additionalProperties": {
-              "formFields": [
-                {
-                  "default": 8800,
-                  "edit": true,
-                  "envKey": "PANEL_APP_PORT_HTTP",
-                  "label": {
-                    "en": "Port",
-                    "ja": "ポート",
-                    "ko": "포트",
-                    "ms": "Port",
-                    "pt-br": "Porta",
-                    "ru": "Порт",
-                    "zh": "端口",
-                    "zh-Hant": "埠"
-                  },
-                  "labelEn": "Port",
-                  "labelZh": "端口",
-                  "required": true,
-                  "rule": "paramPort",
-                  "type": "number"
-                },
-                {
-                  "default": "",
-                  "edit": true,
-                  "envKey": "HUGGING_FACE_HUB_TOKEN",
-                  "label": {
-                    "en": "Hugging Face Token",
-                    "ja": "Hugging Face Token",
-                    "ko": "Hugging Face Token",
-                    "ms": "Hugging Face Token",
-                    "pt-br": "Hugging Face Token",
-                    "ru": "Hugging Face Token",
-                    "zh": "Hugging Face Token",
-                    "zh-Hant": "Hugging Face Token"
-                  },
-                  "labelEn": "Hugging Face Token",
-                  "labelZh": "Hugging Face Token",
-                  "required": true,
-                  "type": "text"
-                },
-                {
-                  "default": "facebook/opt-125m",
-                  "edit": true,
-                  "envKey": "MODEL",
-                  "label": {
-                    "en": "Model",
-                    "ja": "モデル",
-                    "ko": "모델",
-                    "ms": "Model",
-                    "pt-br": "Modelo",
-                    "ru": "Модель",
-                    "zh": "Model",
-                    "zh-Hant": "模型"
-                  },
-                  "labelEn": "模型",
-                  "labelZh": "Model",
-                  "required": true,
-                  "type": "text"
                 }
               ]
             }
