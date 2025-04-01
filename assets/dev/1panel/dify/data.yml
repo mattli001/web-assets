@@ -1,0 +1,28 @@
+name: Dify
+tags:
+    - AI / 大模型
+title: Dify is an open-source LLM app development platform.
+description: Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
+additionalProperties:
+    key: dify
+    name: Dify
+    tags:
+        - AI
+    shortDescZh: Dify 是一个开源的LLM应用开发平台。
+    shortDescEn: Dify is an open-source LLM app development platform.
+    description:
+        en: Dify is an open-source LLM appe development platform.
+        ja: DifyはオープンソースのLLMアプリ開発プラットフォームです。
+        ms: Dify adalah platform pembangunan aplikasi LLM sumber terbuka.
+        pt-br: Dify é uma plataforma de desenvolvimento de aplicativos LLM de código aberto.
+        ru: Dify — это платформа разработки приложений LLM с открытым исходным кодом.
+        ko: Dify는 오픈 소스 LLM 앱 개발 플랫폼입니다.
+        zh-hant: Dify 是一個開源的 LLM 應用程式開發平台。
+        zh: Dify 是一个开源的LLM应用开发平台。
+    type: tool
+    crossVersionUpdate: true
+    limit: 0
+    recommend: 70
+    website: https://dify.ai
+    github: https://github.com/langgenius/dify
+    document: https://github.com/langgenius/dify/blob/main/README.md
